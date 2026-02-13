@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
 
-SERVER_IP = '192.168.1.10'  # Change to server IP
+SERVER_IP = '10.70.101.194'
 PORT = 9999
 KEY = b'0123456789abcdef0123456789abcdef'
 
